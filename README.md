@@ -1,37 +1,13 @@
-# WEB222 Form + API Example
-
+# API+Form
 This example shows how to connect a simple `<form>` to the [OpenAI Chat API](https://platform.openai.com/docs/guides/chat) in the browser.
 
 ## Instructions
+I have developed the "OpenAI - Dog Feed Recommender," drawing inspiration from the topics covered in the WEB222 lecture, which I forked here. 
 
-Install the dependencies:
+![1](https://github.com/SONG-crystal/openAI_dogfeedrecommender/assets/116604389/f62571ea-34d3-492b-bff9-c987cdcd9586)
 
-```sh
-npm install
-```
 
-Create an [OpenAI Account](https://platform.openai.com/) and get your [Secret API Key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key).
+https://github.com/SONG-crystal/openAI_dogfeedrecommender/assets/116604389/524645a8-b7d7-4bad-a912-9c5907986261
 
-Create a file named `.env` in the root of the project and add your API Key to it.  You can use the `env.example` file to help you:
 
-```sh
-cp env.example .env
-```
 
-Now edit `.env` and replace the `...` with your API key.
-
-Bundle the code and start a server:
-
-```sh
-npm start
-```
-
-You can now try the app at `http://localhost:1234`.
-
-## Warning
-
-Do **NOT** put this code on the public internet, since it would [expose your Secret API KEY](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety).  It is fine to run it locally, however.
-
-## Example
-
-![Example using the web interface to get multiple choice questions](example.png)
